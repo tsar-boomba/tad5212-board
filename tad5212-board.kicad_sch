@@ -551,6 +551,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LP5907MFX-1.8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LP5907MFX-1.8"
+				(at 6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 1.8V, SOT-23"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Single Output LDO Low-Noise"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LP5907MFX-1.8_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TAD-5212-sequential:XTAD5212IRGER"
 			(pin_names
 				(offset 0.254)
@@ -1563,10 +1750,6 @@
 		(uuid "63f31048-5e99-420f-b92e-612f4ed7bdda")
 	)
 	(no_connect
-		(at 214.63 67.31)
-		(uuid "a78232fd-4290-401b-a9ce-7c15ef537ab6")
-	)
-	(no_connect
 		(at 214.63 74.93)
 		(uuid "fe1adc0f-7d14-4e1f-8b75-66179ffb8373")
 	)
@@ -1742,6 +1925,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 116.84) (xy 130.81 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4024426e-4704-44a9-820f-cf6471ad278f")
+	)
+	(wire
+		(pts
 			(xy 137.16 69.85) (xy 138.43 69.85)
 		)
 		(stroke
@@ -1912,6 +2105,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 127) (xy 116.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9727def3-1d51-4c94-b7fa-cb9e9e2d51fe")
+	)
+	(wire
+		(pts
 			(xy 160.02 53.34) (xy 163.83 53.34)
 		)
 		(stroke
@@ -1969,6 +2172,16 @@
 			(type default)
 		)
 		(uuid "bb23523d-eb7e-43bf-a0fa-0eda0ddb5af7")
+	)
+	(wire
+		(pts
+			(xy 102.87 116.84) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10ea9b2-b943-4a81-abab-b8571709977e")
 	)
 	(wire
 		(pts
@@ -2092,6 +2305,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 119.38) (xy 109.22 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f948a38b-b5a0-448e-ab51-7b9ba81b26e8")
+	)
+	(wire
+		(pts
 			(xy 85.09 67.31) (xy 86.36 67.31)
 		)
 		(stroke
@@ -2131,7 +2354,7 @@
 		(uuid "13579374-a626-4224-af00-fa45660b0163")
 	)
 	(label "OUT1M"
-		(at 214.63 64.77 180)
+		(at 214.63 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2220,8 +2443,18 @@
 		)
 		(uuid "5486c342-1b8f-4c59-865d-f2c8b6153955")
 	)
+	(label "AVDD"
+		(at 130.81 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b860e15-2552-47c9-8fba-66c76f395aa4")
+	)
 	(label "OUT1P"
-		(at 214.63 62.23 180)
+		(at 214.63 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2249,6 +2482,16 @@
 			(justify right bottom)
 		)
 		(uuid "715aea80-ca7e-4af2-8b65-1fa66aad6b8f")
+	)
+	(label "AVDD"
+		(at 163.83 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7274a1bf-8ec1-4d4c-bcb1-7a2f35070322")
 	)
 	(label "SDA"
 		(at 191.77 72.39 180)
@@ -2280,6 +2523,16 @@
 		)
 		(uuid "8b0ef11d-7f06-4d6b-adf1-5e9d55315b95")
 	)
+	(label "LDO_EN"
+		(at 107.95 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cea1904-4d54-4980-b2c7-b2a61b2cb643")
+	)
 	(label "OUT2P"
 		(at 138.43 72.39 0)
 		(effects
@@ -2289,6 +2542,16 @@
 			(justify left bottom)
 		)
 		(uuid "8dfeda35-80be-4e61-b0a9-90c1a829d7b0")
+	)
+	(label "LDO_EN"
+		(at 214.63 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90e788b2-5545-4249-95fc-3f32cb4a1c1b")
 	)
 	(label "FSYNC"
 		(at 86.36 57.15 180)
@@ -2331,7 +2594,7 @@
 		(uuid "b68c13f3-f54b-4836-819c-a552893b702d")
 	)
 	(label "OUT2M"
-		(at 214.63 57.15 180)
+		(at 214.63 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2411,7 +2674,7 @@
 		(uuid "f89b50ca-d63e-4de0-9e15-b9f791b2613e")
 	)
 	(label "OUT2P"
-		(at 214.63 59.69 180)
+		(at 214.63 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2774,6 +3037,251 @@
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 102.87 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "695194a4-18fb-43f6-a043-918b82836df4")
+		(property "Reference" "#PWR09"
+			(at 102.87 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 102.87 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 102.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d445707c-2dbe-44f8-83de-e13b4d0b7abd")
+		)
+		(instances
+			(project "tad5212-board"
+				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:LP5907MFX-1.8")
+		(at 116.84 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77ee5a6d-c1e0-4082-877c-63a463248ea5")
+		(property "Reference" "U2"
+			(at 116.84 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LP5907MFX-1.8"
+			(at 116.84 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 116.84 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lp5907.pdf"
+			(at 116.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 1.8V, SOT-23"
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "3a7728a6-9e50-4b78-adf7-f02d5215e599")
+		)
+		(pin "4"
+			(uuid "dfb74889-a22e-4ffc-8e47-b7ccb473b655")
+		)
+		(pin "3"
+			(uuid "af0754c7-7045-4505-9e08-77f726dd059b")
+		)
+		(pin "2"
+			(uuid "566f2e3b-675f-4fe0-b925-88661ad1ca51")
+		)
+		(pin "1"
+			(uuid "c4092dfa-3b99-4adc-af57-e02f3e1c2ced")
+		)
+		(instances
+			(project "tad5212-board"
+				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f6d916f-13a2-4f32-8b23-caea8e759bba")
+		(property "Reference" "#PWR014"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c22d185-3e7f-478d-b354-6b0ebf9338e9")
+		)
+		(instances
+			(project "tad5212-board"
+				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4254,84 +4762,6 @@
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 163.83 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3bfc82e-f715-4c86-a001-91e378c48f26")
-		(property "Reference" "#PWR09"
-			(at 163.83 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 163.83 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 163.83 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bf34c6e7-8ca2-4c50-ad2f-cc63fb0f64ae")
-		)
-		(instances
-			(project "tad5212-board"
-				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR09")
 					(unit 1)
 				)
 			)
