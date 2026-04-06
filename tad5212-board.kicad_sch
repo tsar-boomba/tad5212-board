@@ -3736,7 +3736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0475c5cc-876a-4ddf-a016-3c2bccf52bc4")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 267.97 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3796,7 +3796,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3814,7 +3814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07f78dcf-c9c2-47ba-afcd-e5e6e8de3168")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR011"
 			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -3874,7 +3874,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR020")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3974,7 +3974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1530dfe2-d2b8-49fa-a51e-d9054820c027")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 152.4 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4034,7 +4034,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4052,7 +4052,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a45a67e-b31a-4d19-a556-0946041e1a5a")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR010"
 			(at 127 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4112,7 +4112,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR026")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -4130,7 +4130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21b5b117-58a1-463e-8636-04ba251835a1")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 262.89 113.0362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4194,7 +4194,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4212,7 +4212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e92521f-c122-49ab-8d39-44fdfa59f6df")
-		(property "Reference" "C11"
+		(property "Reference" "C7"
 			(at 96.52 118.1162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4276,7 +4276,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C11")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4595,7 +4595,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3c0137df-4d0a-4aa1-b1dc-2484ca804c49")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 200.66 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -4655,7 +4655,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4955,7 +4955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "488d4461-ec73-4c4f-87ae-52ad8b3b4140")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR020"
 			(at 187.96 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5015,7 +5015,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR018")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -5033,7 +5033,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "521dee57-0cf0-49e0-ae06-3de36b0222b3")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR08"
 			(at 93.98 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5093,7 +5093,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR025")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5111,7 +5111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "695194a4-18fb-43f6-a043-918b82836df4")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 92.71 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5171,7 +5171,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5189,7 +5189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7221a0d7-f1bd-45b0-92f0-664e3c21e061")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 152.4 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5249,7 +5249,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5356,7 +5356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f6d916f-13a2-4f32-8b23-caea8e759bba")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR09"
 			(at 116.84 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5416,7 +5416,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR014")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5435,7 +5435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81fcbbc3-fedf-43e2-bd3e-950759e6e89d")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 82.5563 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5497,7 +5497,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -5690,7 +5690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90a00ab4-53eb-43ba-83d9-4f3e92c50ee3")
-		(property "Reference" "C8"
+		(property "Reference" "C11"
 			(at 157.4863 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5752,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C8")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -5852,7 +5852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "973d0285-8f5d-42b2-b6b8-29372247a605")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 147.32 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -5912,7 +5912,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6089,7 +6089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abfac835-55e8-44f0-8a8e-28b21731bf9f")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR012"
 			(at 139.7 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6149,7 +6149,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR07")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6284,7 +6284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acdbb04f-5431-453c-a368-d8e17552c221")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 74.9363 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,7 +6346,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6364,7 +6364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aebbfbf9-aedc-49be-86fc-41dcd4d84cbb")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 220.98 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6424,7 +6424,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -6442,7 +6442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afbba472-0b77-406b-a334-fb9a899cded0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR019"
 			(at 182.88 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -6502,7 +6502,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR010")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba13a4af-7528-4933-bf50-b9dd04abe7c3")
-		(property "Reference" "C10"
+		(property "Reference" "C12"
 			(at 195.58 113.0362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6584,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C10")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c15b1363-6925-4f7c-b5d0-99610a1d933d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR013"
 			(at 143.51 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -6662,7 +6662,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR08")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6758,7 +6758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5b0092c-b953-4ada-b9f8-3cf68ea03016")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR025"
 			(at 265.43 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -6818,7 +6818,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR017")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6836,7 +6836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5caab0a-f9bc-4072-8b6b-49813de340aa")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 157.4863 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6898,7 +6898,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6994,7 +6994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce5ac1f0-3380-4813-aa17-9b46389c3cea")
-		(property "Reference" "C13"
+		(property "Reference" "C8"
 			(at 129.54 118.1162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7058,7 +7058,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C13")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -7076,7 +7076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b8f099-91f3-4fd6-b7ad-1aed6728abda")
-		(property "Reference" "Y3"
+		(property "Reference" "Y1"
 			(at 171.45 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7278,7 +7278,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "Y3")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -7296,7 +7296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d5e693-3348-463b-884c-80f04f3a16a9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR017"
 			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7356,7 +7356,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR022")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7452,7 +7452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4d871ea-635f-45f0-a339-1bbe99f285dc")
-		(property "Reference" "C6"
+		(property "Reference" "C9"
 			(at 149.86 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7516,7 +7516,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "C6")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7534,7 +7534,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7ac8194-4d01-475d-9493-f60762907eb8")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR021"
 			(at 198.12 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7594,7 +7594,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR019")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -7612,7 +7612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e30a44e6-b253-4322-a21f-d8f3fc1e4037")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR018"
 			(at 182.88 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -7672,7 +7672,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR011")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7690,7 +7690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5985e39-3781-42bf-9673-e3ae8d39cdd8")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR024"
 			(at 255.27 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7750,7 +7750,7 @@
 		(instances
 			(project "tad5212-board"
 				(path "/e4005a94-2c8d-4b85-9bd4-ebc39c689406"
-					(reference "#PWR016")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
